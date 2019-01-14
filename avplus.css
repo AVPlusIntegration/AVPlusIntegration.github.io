@@ -1,0 +1,85 @@
+/* Workspace Automation */
+body{
+	background-color:#dddddd; 
+	font-family:arial;
+}
+#top_bar {
+	background-color:#555555;
+	height:50px;
+}
+#title_area {
+	position:relative;
+	text-align:center;
+}
+#title {
+	clear:both;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+div.main_points {
+	width:220px;
+	padding:20px;
+	position:relative;
+	top:-100px;
+	float:left;
+}
+
+img.fb_icon_size {
+	width:20px;
+	height:20px;
+}
+div.fb_icon_pos {
+	position:relative;
+	text-align:right;
+	padding:6px;
+}
+div.images {
+	position:relative;
+	top:50px;
+    height:200px;
+    display:table-cell;
+    vertical-align:middle;
+}
+#bottom_text {
+	clear:both;
+	position:relative;
+	text-align:center; 
+}
+#bottom_bar {
+	background-color:#aaaaaa;
+	clear:both;
+	height:100px;
+	position:relative;
+	padding:6px;
+}
+
+#copyright {
+	float:left;
+}
+#bottom_fb {
+	float:right;
+}
+#contact_us {
+	clear:both;
+	position:relative;
+	text-align:center; 
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 500px;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+button {
+}
