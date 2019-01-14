@@ -16,12 +16,15 @@ body{
 	margin-top:0px;
 	margin-bottom:0px;
 }
+div.main_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 div.main_points {
 	width:220px;
 	padding:20px;
-	position:relative;
-	top:-100px;
-	float:left;
 }
 
 img.fb_icon_size {
@@ -36,7 +39,7 @@ div.fb_icon_pos {
 div.images {
 	position:relative;
 	top:50px;
-    height:200px;
+    height:150px;
     display:table-cell;
     vertical-align:middle;
 }
